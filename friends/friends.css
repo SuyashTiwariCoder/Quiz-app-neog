@@ -1,0 +1,61 @@
+.rules div {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.options {
+    flex-direction: column;
+}
+
+.rules--container {
+    width: 60vw;
+    margin: auto;
+}
+
+.rules {
+    width: inherit;
+}
+
+.btn--finish {
+    padding: 1rem;
+    background-color: var(--info);
+    border: none;
+    border-radius: .5rem;
+    width: 10rem;
+
+}
+
+.btn--finish:hover {
+    background-color: var(--warning);
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all 0.2s ease;
+}
+
+.correct {
+    background-color: var(--success);
+    color: var(--white);
+}
+
+.incorrect {
+    background-color: var(--danger);
+    color: var(--white);
+}
+
+.playAgain {
+    border: 2px solid var(--warning);
+    color: var(--white);
+    padding: 1rem;
+    background: transparent;
+    border-radius: .5rem;
+    width: 10rem;
+}
+
+.playAgain:hover {
+    background-color: var(--quiz--tertiaryColor);
+    cursor: pointer;
+    color: var(--dark);
+    transform: scale(1.02);
+    transition: all 0.2s ease;
+}

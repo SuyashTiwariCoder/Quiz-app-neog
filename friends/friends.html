@@ -4,34 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css" />
+<link
+    rel="stylesheet"
+    href="https://superui.netlify.app/stylesheets/reset.css"
+/>
+
+<link
+    rel="stylesheet"
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous"
+/>
+<link
+    rel="stylesheet"
+    href="https://superui.netlify.app/stylesheets/color.css"
+/>
+<link
+    rel="stylesheet"
+    href="https://superui.netlify.app/stylesheets/class.css"
+/>
+<link rel="stylesheet" href="/index.css" />
+<link rel="stylesheet" href="/rules/rules.css" />
     <link rel="stylesheet" href="/friends/friends.css">
     <title>Friends Quiz</title>
 </head>
 <body>
-<div class="main--content">
-<h2 class="question">Question Comes Here</h2>
 
-<ul>
-  <li>
-    <button type="radio" class="showbtn"><input type="radio" name="answers" id="ans1" class="answer"/>
-    <label for="ans1" id="opt--1">Option 1 </label></button>
-  </li>
-  <li>
-    <button class="showbtn"><input type="radio" name="answers" id="ans2" class="answer"/>
-    <label for="ans2" id="opt--2">Option 2</label></button>
-  </li>
-  <li>
-    <button class="showbtn"><input type="radio" name="answers" id="ans3" class="answer"/>
-    <label for="ans3" id="opt--3">Option 3 </label></button>
-  </li>
-  <li>
-    <button class="showbtn"><input type="radio" name="answers" id="ans4" class="answer"/>
-    <label for="ans4" id="opt--4">Option 4 </label></button> 
-  </li>
-</ul>
-<button id="submitBtn">Submit</button>
-</div>   
-<script src="/friends/friends.js"></script>
+
+  <nav class="navigation flex--cemter">
+    <h1>Quizophile</h1>
+</nav>
+<div class="rules--container grid--center">
+  <div class="rules">
+
+
+<h2>Quiz</h2>
+<div><div class="quiz--questions">Questions : 1/5</div><div class="quiz--score">Score : 0</div></div>
+<p class="question textAlign--center">Q: What is Monika allergic to ? </p>
+
+<div class="options  flex--cemter">
+<button class="btn correct"> Cat Hairs</button>
+<button class="btn">Nuts</button>
+<button class="btn incorrect">Pistachios</button>
+<button class="btn">Peaches</button>
+</div>
+
+
+  </div><a href="/result/result.html"><button class="btn--finish submit">Finish </button></a>
+  <a href="/index.html"><button class="playAgain submit">Play Again  </button></a>
+</div>
 </body>
 </html>
 
