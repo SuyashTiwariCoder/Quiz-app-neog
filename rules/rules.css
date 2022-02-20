@@ -1,0 +1,32 @@
+.rules--container {
+    height: 80vh;
+}
+
+.rules {
+    padding: 2rem;
+    background-color: var(--quiz--primaryColor);
+    font-size: 2rem;
+    border-radius: .5rem;
+}
+
+h2 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.rules p {
+    padding: 1rem;
+}
+
+.rules p:last-child {
+    text-align: center;
+}
+
+.rules p:nth-child(7) {
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: var(--dark);
+    color: var(--white);
+}
