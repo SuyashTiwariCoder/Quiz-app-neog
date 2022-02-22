@@ -3,7 +3,6 @@
 
 If you think You are very good at watching TV shows and you remember everything . Then Play Our Quiz , If you guessed 4/5 answers. Correct Then You have watched The show twice.
  
- ### &#x201C;Time and You Both are Precious to Us"
 
 
 ## QuizoPhile
