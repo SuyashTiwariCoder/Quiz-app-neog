@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;400;700&display=swap');
 
-:root {
-    --quiz--primaryColor: #c5d5cb;
-    --quiz--secondaryColor: #9fa8a3;
-    --quiz--tertiaryColor: #e3e0cf;
-}
-
 body {
     background-color: var(--quiz--secondaryColor);
     font-family: 'Exo', sans-serif;
@@ -69,6 +63,10 @@ body {
 .navigation {
     font-weight: 700;
     color: var(--dark);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
 }
 
 
@@ -80,7 +78,7 @@ body {
 }
 
 .quiz:hover,
-.btn:hover {
+.btn:hover,.login--btn:hover,.createNewAccount:hover {
     box-shadow: 0px 0px 50px -5px rgba(0, 0, 0, 0.17);
     transform: scale(1.02);
     transition: all .2s ease-in;

@@ -1,0 +1,23 @@
+.login--content{
+    background-color: var(--quiz--secondaryColor);
+    height: 75vh;
+}
+.login--content div{
+    color: var(--dark);
+}
+.login--btn{
+    width: auto;
+    background-color: var(--quiz--tertiaryColor);
+    color: var(--dark);
+
+}
+.createNewAccount{
+    width: auto;
+    border: 2px solid var(--dark);
+    background-color: var(--quiz--primaryColor);
+    color: var(--dark);
+}
+input{
+    border-radius: .5rem;
+    border: none;
+}
